@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red;
 }
 body{
     background: var(--color-fond);
@@ -45,14 +44,20 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: var(--color-1);
-    p{
-        font-family: "RobotoCondensed-Bold";
-        font-size: 24px;
+    a{
+        text-decoration: none;
+        color: var(--color-1);
+        p{
+            font-family: "RobotoCondensed-Bold";
+            font-size: 24px;
+    
+    
+        }
     }
+
 }
 .container_mood {
-    margin-top: 46px;
+    margin-top: 16px;
     height: 45px;
     gap: 28px;
     display: flex;
