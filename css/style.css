@@ -1,0 +1,273 @@
+@import url(variables.css);
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-fond);
+    width: 100%;
+    height: 4100px;
+}
+
+/* HEADER */
+.header-container{
+    display: flex;
+    width: 100%;
+    height: 141px;
+    padding-right: 27px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container {
+    position: relative;
+    left: -58px;
+    background: var(--color-1);
+    color: var(--color-2);
+    width: 298px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    padding-left: 93px;
+    padding-right: 48px;
+    border-radius: 48px;
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 48px;
+    }
+}
+.container_menu {
+    width: 732px;
+    height: 38px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: var(--color-1);
+        font-family: "RobotoCondensed-Bold";
+            font-size: 24px;
+    
+    }
+
+}
+.container_mood {
+    margin-top: 16px;
+    height: 45px;
+    gap: 28px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* SECTION INICIO */
+main{
+    padding: 36px 100px;
+    width: 100%;
+}
+.container_inicio {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container_text {
+    display: flex;
+    width: 707px;
+    flex-direction: column;
+    gap: 13px;
+    color: var(--color-1);
+    img:nth-child(1){
+        width: 707px;
+        height: 391px;
+    }
+    p:nth-child(2){
+        margin-top: 13px;
+        font-family: "RobotoCondensed-Bold";
+        font-size: 56.4px;
+    }
+    p:nth-child(3){
+        font-family: "RobotoCondensed-Regular";
+        font-size: 26px;
+    }
+}
+.container_img_inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container_redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+
+    a:nth-child(2){
+        margin-top: -8px;
+    }
+
+}
+
+/* SECTION COMO JUGAR */
+
+.container_comojugar {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-1);
+    gap: 41px;
+    margin-top: 200px;
+}
+.container_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 41px;
+    h1{
+        width: 363px;
+        height: 71px;
+        font-family: "RobotoCondensed-Bold";
+        font-size: 64px;
+    }
+    p{
+        width: 654px;
+        height: 146px;
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+    }
+}
+.reglas {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+}
+.icon_reglas {
+    display: flex;
+    background: var(--color-1);
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-2);
+    border-radius: 50%;
+    h1{
+        font-family: "RobotoCondensed-Bold";
+        font-size: 64px;
+    }
+}
+.text_reglas{
+    display: flex;
+    width: 752px;
+    margin-left: -32px;
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 28px;
+    }
+}
+
+.img_reglas {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* SECTION APOYANOS */
+
+.container_apoyanos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 212px;
+}
+.container_text {
+    display: flex;
+    flex-direction: column;
+    width: 751px;
+    height: 184px;
+    gap: 83px;
+    color: var(--color-1);
+    p:nth-child(1){
+        font-family: "RobotoCondensed-Bold";
+        font-size: 72px;
+    }
+    p:nth-child(2){
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+    }
+}
+.container_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 305px;
+    gap: 52px;
+
+    a{
+        margin-top: 50px;
+    }
+}
+
+/* SECTION SOBRE NOSOTROS */
+
+.container_sobrenosotros {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 279px;
+}
+.container_text {
+    display: flex;
+    flex-direction: column;
+    width: 713px;
+    height: 452px;
+    gap: 69px;
+    color: var(--color-1);
+    p:nth-child(1){
+        font-family: "RobotoCondensed-Bold";
+        font-size: 72px;
+    }
+    p:nth-child(2){
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+    }
+}
+.container_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 152px;
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 96px;
+        color: var(--color-1);
+    }
+}
+.img_main {
+    display: flex;
+    img:nth-child(1){
+        position: relative;
+        right: -20px;
+    }
+    img:nth-child(2){
+        position: relative;
+        left: -100px;
+    }
+
+
+}
+.text_img {
+    display: flex;
+    flex-direction: row;
+}
+
+
