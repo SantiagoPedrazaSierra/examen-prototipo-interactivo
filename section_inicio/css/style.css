@@ -1,0 +1,116 @@
+@import url(variables.css);
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-fond);
+}
+
+/* HEADER */
+.containerheader {
+    display: flex;
+    width: 100%;
+    height: 141px;
+    padding-right: 27px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_aqua {
+    position: relative;
+    left: -58px;
+    background: var(--color-1);
+    color: var(--color-2);
+    width: 298px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    padding-left: 93px;
+    padding-right: 48px;
+    border-radius: 48px;
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 48px;
+    }
+}
+.container_menu {
+    width: 732px;
+    height: 38px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: var(--color-1);
+        p{
+            font-family: "RobotoCondensed-Bold";
+            font-size: 24px;
+    
+    
+        }
+    }
+
+}
+.container_mood {
+    margin-top: 16px;
+    height: 45px;
+    gap: 28px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* INICIO */
+main{
+    padding: 36px 100px;
+    width: 100%;
+}
+.container_inicio {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container_text {
+    display: flex;
+    width: 707px;
+    flex-direction: column;
+    gap: 13px;
+    color: var(--color-1);
+    img:nth-child(1){
+        width: 707px;
+        height: 391px;
+    }
+    p:nth-child(2){
+        margin-top: 13px;
+        font-family: "RobotoCondensed-Regular";
+        font-size: 56.4px;
+    }
+    p:nth-child(3){
+        font-family: "RobotoCondensed-Regular";
+        font-size: 26px;
+    }
+}
+.container_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container_redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+
+    a:nth-child(2){
+        margin-top: -8px;
+    }
+
+}
