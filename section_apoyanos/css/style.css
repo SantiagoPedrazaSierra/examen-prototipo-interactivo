@@ -1,0 +1,42 @@
+@import url(variables.css);
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-fond);
+}
+main{
+    padding: 100px;
+}
+.container_apoyanos {
+    display: flex;
+    gap: 37px;
+    width: 100%;
+}
+.container_text {
+    display: flex;
+    flex-direction: column;
+    width: 751px;
+    height: 184px;
+    gap: 83px;
+    color: var(--color-1);
+    p:nth-child(1){
+        font-family: "RobotoCondensed-Bold";
+        font-size: 72px;
+    }
+    p:nth-child(2){
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+    }
+}
+.container_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 305px;
+    gap: 52px;
+}

@@ -7,12 +7,10 @@
 }
 body{
     background: var(--color-fond);
-    width: 100%;
-    height: 4100px;
 }
 
 /* HEADER */
-.header-container{
+.containerheader {
     display: flex;
     width: 100%;
     height: 141px;
@@ -20,7 +18,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logo-container {
+.container_aqua {
     position: relative;
     left: -58px;
     background: var(--color-1);
@@ -50,9 +48,12 @@ body{
     a{
         text-decoration: none;
         color: var(--color-1);
-        font-family: "RobotoCondensed-Bold";
+        p{
+            font-family: "RobotoCondensed-Bold";
             font-size: 24px;
     
+    
+        }
     }
 
 }
@@ -65,12 +66,12 @@ body{
 
 }
 
-/* SECTION INICIO */
+/* INICIO */
 main{
     padding: 36px 100px;
     width: 100%;
 }
-#container_inicio {
+.container_inicio {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -85,9 +86,9 @@ main{
         width: 707px;
         height: 391px;
     }
-    h3:nth-child(2){
+    p:nth-child(2){
         margin-top: 13px;
-        font-family: "RobotoCondensed-Bold";
+        font-family: "RobotoCondensed-Regular";
         font-size: 56.4px;
     }
     p:nth-child(3){
@@ -95,7 +96,7 @@ main{
         font-size: 26px;
     }
 }
-.container_img_inicio {
+.container_img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,13 +116,11 @@ main{
 }
 
 /* SECTION COMO JUGAR */
-
-#container_comojugar {
+.container_comojugar {
     display: flex;
     flex-direction: column;
     color: var(--color-1);
     gap: 41px;
-    margin-top: 200px;
 }
 .container_title {
     display: flex;
@@ -183,11 +182,10 @@ main{
 
 /* SECTION APOYANOS */
 
-#container_apoyanos {
+.container_apoyanos {
     display: flex;
-    justify-content: space-between;
+    gap: 37px;
     width: 100%;
-    margin-top: 212px;
 }
 .container_text {
     display: flex;
@@ -205,66 +203,11 @@ main{
         font-size: 36px;
     }
 }
-.container_img_apoyanos {
+.container_img {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 375px;
     height: 305px;
     gap: 52px;
-    margin-top: 33px;
 }
-
-/* SECTION SOBRE NOSOTROS */
-
-#container_sobrenosotros {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 279px;
-}
-.container_text {
-    display: flex;
-    flex-direction: column;
-    width: 713px;
-    height: 452px;
-    gap: 69px;
-    color: var(--color-1);
-    p:nth-child(1){
-        font-family: "RobotoCondensed-Bold";
-        font-size: 72px;
-    }
-    p:nth-child(2){
-        font-family: "RobotoCondensed-Regular";
-        font-size: 36px;
-    }
-}
-.container_img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 152px;
-    p{
-        font-family: "RobotoCondensed-Regular";
-        font-size: 96px;
-        color: var(--color-1);
-    }
-}
-.img_main {
-    display: flex;
-    img:nth-child(1){
-        position: relative;
-        right: -20px;
-    }
-    img:nth-child(2){
-        position: relative;
-        left: -100px;
-    }
-
-
-}
-.text_img {
-    display: flex;
-    flex-direction: row;
-}
-
-
